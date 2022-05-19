@@ -1,0 +1,9 @@
+[package]
+name = "spin-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = { version = "0.3.21", features = ["thread-pool"] }
+crossbeam = "0.8.1"
+rayon = "1.5.3"
